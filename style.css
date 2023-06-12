@@ -1,0 +1,44 @@
+
+.avatar{
+  width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border: 6px solid #d8cefe;
+    opacity: 1;
+    transition: 1s ease;
+    backface-visibility: hidden;
+    
+}
+.card:hover .avatar {
+  opacity: 0.3;
+}
+
+.card:hover .hhover {
+  opacity: 1;
+}
+
+.hhover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: text-top;
+}
+
+.hovertextabove{
+  text-align: center;
+  font-weight: 
+  
+}
